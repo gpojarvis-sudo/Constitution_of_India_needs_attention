@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(135deg,#0a0a1a,#1a1a2e);
+  color: white;
+  font-family: sans-serif;
+}
+
+.hero {
+  text-align:center;
+  padding:50px;
+  font-size:2rem;
+}
+
+.search input {
+  width:80%;
+  padding:10px;
+  margin:20px;
+}
+
+#cards {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.card {
+  background:#222;
+  padding:20px;
+  border-radius:10px;
+  cursor:pointer;
+}
